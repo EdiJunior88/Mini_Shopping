@@ -3,12 +3,19 @@ import { useEffect, useState } from "react";
 import { apiItens } from "./api/apiItens";
 import Image from "next/image";
 
+interface Item {
+  id: number;
+  nameProduct: string;
+  price: number;
+  urlImage: string;
+}
+
 export default function Page() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState<Item[]>([]);
 
   useEffect(() => {
     const fetchItems = async () => {
-      const data = await apiItens();
+      const data: Item[] = await apiItens();
       setItems(data);
     };
 
