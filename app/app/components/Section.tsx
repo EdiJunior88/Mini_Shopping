@@ -18,21 +18,22 @@ export default function Section() {
   }, []);
 
   return (
-    <section>
-      <div>
-        {items.map((item) => (
-          <div key={item.id}>
-            <h1>{item.nameProduct}</h1>
-            <p>{item.price}</p>
-            <Image
-              src={item.urlImage}
-              width={500}
-              height={500}
-              alt={item.nameProduct}
-            />
-          </div>
-        ))}
-      </div>
+    <section className="grid grid-cols-3 grid-rows-1 items-center justify-center gap-x-4 gap-y-12">
+      {items.map((item) => (
+        <div key={item.id}>
+          <Image
+            src={item.urlImage}
+            width={500}
+            height={500}
+            alt={item.nameProduct}
+            priority
+            className="h-52 w-full object-cover"
+          />
+          <h1>{item.nameProduct}</h1>
+          <p>{item.price}</p>
+          <button>Adicionar ao carrinho</button>
+        </div>
+      ))}
     </section>
   );
 }
