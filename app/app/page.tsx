@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { apiItens } from "./api/apiItens";
 import Image from "next/image";
 
-export const page = () => {
+export default function Page() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -31,6 +31,4 @@ export const page = () => {
       ))}
     </div>
   );
-};
-
-export default page;
+}
