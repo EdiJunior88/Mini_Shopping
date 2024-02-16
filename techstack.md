@@ -42,13 +42,16 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
+
 ![](https://img.stackshare.io/repo.svg "repo") [EdiJunior88/Mini_Shopping](https://github.com/EdiJunior88/Mini_Shopping)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |20<br/>Tools used|02/16/24 <br/>Report generated|
 |------|------|
+
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'>
@@ -78,6 +81,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (6)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'>
@@ -131,6 +135,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
@@ -168,6 +173,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (1)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
@@ -180,19 +186,18 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (6)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (6)
 
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@types/node](https://www.npmjs.com/@types/node)|v20.11.17|02/14/24|EdiJunior88 |MIT|N/A|
-|[@types/react](https://www.npmjs.com/@types/react)|v18.2.55|02/14/24|EdiJunior88 |MIT|N/A|
-|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.19|02/14/24|EdiJunior88 |MIT|N/A|
-|[eslint-config-next](https://www.npmjs.com/eslint-config-next)|v14.1.0|02/14/24|EdiJunior88 |N/A|N/A|
-|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|02/14/24|EdiJunior88 |MIT|N/A|
-|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.1|02/14/24|EdiJunior88 |MIT|N/A|
+| NAME                                                           | VERSION   | LAST UPDATED | LAST UPDATED BY | LICENSE | VULNERABILITIES |
+| :------------------------------------------------------------- | :-------- | :----------- | :-------------- | :------ | :-------------- |
+| [@types/node](https://www.npmjs.com/@types/node)               | v20.11.17 | 02/14/24     | EdiJunior88     | MIT     | N/A             |
+| [@types/react](https://www.npmjs.com/@types/react)             | v18.2.55  | 02/14/24     | EdiJunior88     | MIT     | N/A             |
+| [@types/react-dom](https://www.npmjs.com/@types/react-dom)     | v18.2.19  | 02/14/24     | EdiJunior88     | MIT     | N/A             |
+| [eslint-config-next](https://www.npmjs.com/eslint-config-next) | v14.1.0   | 02/14/24     | EdiJunior88     | N/A     | N/A             |
+| [react-dom](https://www.npmjs.com/react-dom)                   | v18.2.0   | 02/14/24     | EdiJunior88     | MIT     | N/A             |
+| [tailwindcss](https://www.npmjs.com/tailwindcss)               | v3.4.1    | 02/14/24     | EdiJunior88     | MIT     | N/A             |
 
 <br/>
 <div align='center'>
