@@ -7,7 +7,7 @@ export interface Product {
 }
 
 export interface InterfaceHeader {
-  allProducts: Product[]
+  allProducts: Product[];
   setAllProducts: (newProducts: Product[]) => void;
   total?: number;
   setTotal?: (newTotal: number) => void;
