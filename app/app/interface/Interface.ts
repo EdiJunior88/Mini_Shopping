@@ -19,3 +19,8 @@ export interface InterfaceHeaderWallet extends InterfaceHeader {
   active?: boolean;
   price?: number;
 }
+
+export interface InterfaceButton {
+  onClick: React.MouseEventHandler<HTMLButtonElement>;
+  text: string;
+}

@@ -9,10 +9,11 @@ export default function Header({
   setAllProducts,
 }: InterfaceHeader) {
   const [active, setActive] = useState(false);
+  const title = "Mini Shopping React + NextJS 14";
 
   return (
     <header className="relative flex w-full items-center justify-between py-10">
-      <h1>Mini Shopping</h1>
+      <h1 className="text-xl font-semibold">{title}</h1>
 
       <div
         className="relative z-10 cursor-pointer"
