@@ -12,7 +12,7 @@ export default function Header({
   const title = "Mini Shopping React + NextJS 14";
 
   return (
-    <header className="relative flex w-full items-center justify-between py-10">
+    <header className="relative flex w-full items-center justify-between pb-10">
       <h1 className="text-xl font-semibold">{title}</h1>
 
       <div

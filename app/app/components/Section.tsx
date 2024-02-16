@@ -11,9 +11,11 @@ export default function Section({
   setAllProducts,
 }: InterfaceHeader) {
   const [items, setItems] = useState<Product[]>([]);
-
   const textButton = "Adicionar ao carrinho";
 
+  // Define uma função assíncrona fetchItems que chama a função API
+  // para buscar dados do tipo Product[],
+  // e então define os dados obtidos usando a função setItems.
   useEffect(() => {
     const fetchItems = async () => {
       const data: Product[] = await API();
@@ -23,6 +25,10 @@ export default function Section({
     fetchItems();
   }, []);
 
+  // Define uma função onAddProduct que recebe um Product como argumento.
+  // Ele verifica se o produto já existe no array allProducts.
+  // Se existir, atualiza a quantidade do produto existente.
+  // Se não existir, adiciona o novo produto ao array com uma quantidade de 1.
   const onAddProduct = (item: Product) => {
     const existingProduct = allProducts.find(
       (product) => product.id === item.id,
@@ -39,14 +45,13 @@ export default function Section({
     }
   };
 
+  // Formata o preço em reais (Brasil)
   const formatPriceBRL = (price: number) => {
     return new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BRL",
     }).format(price);
   };
-
-  // console.log(allProducts);
 
   return (
     <section className="grid grid-cols-3 grid-rows-1 items-center justify-center gap-x-7 gap-y-12">

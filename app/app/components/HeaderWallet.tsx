@@ -11,10 +11,12 @@ export default function HeaderWallet({
 }: InterfaceHeaderWallet) {
   const textButton = "Limpar Compras";
 
+  // Remove um item do carrinho
   const removeProduct = (productId: number) => {
     setAllProducts(allProducts.filter((product) => product.id !== productId));
   };
 
+  // Formata o preço em reais (Brasil)
   const formatPriceBRL = (price: number) => {
     return new Intl.NumberFormat("pt-BR", {
       style: "currency",
@@ -22,13 +24,14 @@ export default function HeaderWallet({
     }).format(price);
   };
 
+  // Limpa o carrinho
   const onCleanCart = () => {
     setAllProducts([]);
   };
 
   return (
     <div
-      className={`absolute right-0 top-20 flex w-96 flex-col rounded-lg bg-white shadow-lg shadow-slate-400/50 ${active ? "" : "hidden"}`}
+      className={`absolute right-0 top-20 flex w-96 flex-col rounded-lg bg-white shadow-lg shadow-slate-400/50 ${active ? "fade-in-top" : "fade-out"}`}
     >
       {allProducts.length ? (
         <>

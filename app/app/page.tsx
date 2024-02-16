@@ -11,7 +11,7 @@ export default function Page() {
   const [countProducts, setCountProducts] = useState(0);
 
   return (
-    <div className="mx-auto max-w-4xl">
+    <div className="mx-auto max-w-4xl py-10">
       <Header
         allProducts={allProducts}
         setAllProducts={setAllProducts}
