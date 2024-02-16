@@ -40,7 +40,7 @@ export default function HeaderWallet({
               >
                 <div className="flex gap-4 border-slate-300">
                   <span className="w-5">{product.quantity}</span>
-                  <span className="w-36 text-center">
+                  <span className="w-36 text-center text-green-700">
                     {product.nameProduct}
                   </span>
                   <span className="w-28 font-bold">

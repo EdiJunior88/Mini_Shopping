@@ -21,7 +21,7 @@ export default function Header({
       >
         <Image src={IconWallet} width={40} height={40} alt="ícone compras" />
 
-        <div className="absolute right-0 top-6 rounded-full bg-black p-1 text-xs text-white">
+        <div className="absolute right-0 top-6 rounded-full bg-slate-950 p-1 text-xs text-white">
           <span>
             {/* o método "reduce" soma a quantidade de todos os produtos em um array chamado
              allProducts. O valor inicial da soma é 0. O método "reduce" itera sobre cada 
