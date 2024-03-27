@@ -31,7 +31,7 @@ export default function HeaderWallet({
 
   return (
     <div
-      className={`absolute right-0 top-20 flex w-96 flex-col rounded-lg bg-white shadow-lg shadow-slate-400/50 ${
+      className={`absolute right-0 top-14 flex w-96 flex-col rounded-lg z-10 bg-white shadow-lg shadow-slate-400/50 ${
         active ? "fade-in-top" : "fade-out"
       }`}
     >

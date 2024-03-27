@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nameProduct": "Tênis",
+      "urlImage": "https://i.ibb.co/WsCf8bP/Tenis.jpg",
+      "price": "210.56"
+    },
+    {
+      "id": 2,
+      "nameProduct": "Relógio Digital",
+      "urlImage": "https://i.ibb.co/4MqH7r0/Relogio.jpg",
+      "price": "90.20"
+    },
+    {
+      "id": 3,
+      "nameProduct": "SmartWatch",
+      "urlImage": "https://i.ibb.co/bLqCqzK/Smartwatch.jpg",
+      "price": "499.99"
+    },
+    {
+      "id": 4,
+      "nameProduct": "Perfume",
+      "urlImage": "https://i.ibb.co/xYdsKqB/Perfume.jpg",
+      "price": "23.23"
+    },
+    {
+      "id": 5,
+      "nameProduct": "Fone de Ouvido",
+      "urlImage": "https://i.ibb.co/jk8w1Pt/Fone-de-Ouvido.jpg",
+      "price": "99.90"
+    },
+    {
+      "id": 6,
+      "nameProduct": "Notebook",
+      "urlImage": "https://i.ibb.co/4jz6ZSy/Notebook.jpg",
+      "price": "2199.48"
+    }
+  ]
+}
