@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mini Shopping React + NextJS 14",
-  description: "Gerado e criado por next app",
+  description: "Gerado e criado pelo next app",
   icons: [{ rel: "icon", url: Favicon.src }],
 };
 
