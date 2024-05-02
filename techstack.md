@@ -3,8 +3,8 @@
 ## Tech Stack
 EdiJunior88/Mini_Shopping is built on the following main stack:
 
-- [TypeScript](http://www.typescriptlang.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [TypeScript](http://www.typescriptlang.org) – Languages
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
 - [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -23,8 +23,8 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 EdiJunior88/Mini_Shopping is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/5936/nextjs.png' alt='Next.js'/> [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -42,16 +42,42 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-
 ![](https://img.stackshare.io/repo.svg "repo") [EdiJunior88/Mini_Shopping](https://github.com/EdiJunior88/Mini_Shopping)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|1<br/>Tools used|02/29/24 <br/>Report generated|
+|20<br/>Tools used|05/02/24 <br/>Report generated|
 |------|------|
-
 </div>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (1)
+## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
+  <br>
+  <sub><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS 3</a></sub>
+  <br>
+  <sub></sub>
+</td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
+  <br>
+  <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'>
+  <br>
+  <sub><a href="http://www.typescriptlang.org">TypeScript</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (6)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'>
@@ -66,7 +92,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="https://nextjs.org/">Next.js</a></sub>
   <br>
-  <sub>v14.1.0</sub>
+  <sub>v14.2.3</sub>
 </td>
 
 <td align='center'>
@@ -105,7 +131,6 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
-
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
@@ -143,31 +168,31 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (1)
-
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
   <br>
   <sub><a href="https://github.com/mzabriskie/axios">axios</a></sub>
   <br>
-  <sub>v1.6.7</sub>
+  <sub>v1.6.8</sub>
 </td>
 
 </tr>
 </table>
 
+
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (6)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (6)
 
-| NAME                                                           | VERSION   | LAST UPDATED | LAST UPDATED BY | LICENSE | VULNERABILITIES |
-| :------------------------------------------------------------- | :-------- | :----------- | :-------------- | :------ | :-------------- |
-| [@types/node](https://www.npmjs.com/@types/node)               | v20.11.17 | 02/14/24     | EdiJunior88     | MIT     | N/A             |
-| [@types/react](https://www.npmjs.com/@types/react)             | v18.2.55  | 02/14/24     | EdiJunior88     | MIT     | N/A             |
-| [@types/react-dom](https://www.npmjs.com/@types/react-dom)     | v18.2.19  | 02/14/24     | EdiJunior88     | MIT     | N/A             |
-| [eslint-config-next](https://www.npmjs.com/eslint-config-next) | v14.1.0   | 02/14/24     | EdiJunior88     | N/A     | N/A             |
-| [react-dom](https://www.npmjs.com/react-dom)                   | v18.2.0   | 02/14/24     | EdiJunior88     | MIT     | N/A             |
-| [tailwindcss](https://www.npmjs.com/tailwindcss)               | v3.4.1    | 02/14/24     | EdiJunior88     | MIT     | N/A             |
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[@types/node](https://www.npmjs.com/@types/node)|v20.12.7|02/14/24|EdiJunior88 |MIT|N/A|
+|[@types/react](https://www.npmjs.com/@types/react)|v18.2.79|02/14/24|EdiJunior88 |MIT|N/A|
+|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.25|02/14/24|EdiJunior88 |MIT|N/A|
+|[eslint-config-next](https://www.npmjs.com/eslint-config-next)|v14.2.3|04/24/24|dependabot[bot] |N/A|N/A|
+|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|02/14/24|EdiJunior88 |MIT|N/A|
+|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.3|04/22/24|dependabot[bot] |MIT|N/A|
 
 <br/>
 <div align='center'>
